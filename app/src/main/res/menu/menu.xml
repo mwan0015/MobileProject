@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home">
+
+        </item>
+        <item
+            android:id="@+id/News"
+            android:icon="@drawable/baseline_newspaper_24"
+            android:title="Daily News">
+
+        </item>
+
+        <item
+            android:id="@+id/subscribe1"
+            android:icon="@drawable/baseline_subscriptions_24"
+            android:title="Subscription">
+
+        </item>
+
+
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/baseline_person_24"
+            android:title="User Info">
+
+        </item>
+        <item
+            android:id="@+id/language"
+            android:icon="@drawable/baseline_language_24"
+            android:title="Language Settings">
+
+        </item>
+
+    </group>
+
+
+
+</menu>

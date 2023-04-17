@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <LinearLayout android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/subscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Subscribe for news updates"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:hint="Enter full name"
+            />
+        <EditText
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:hint="Enter email "
+            />
+        <Button
+            android:id="@+id/subscribeButton"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:text="SUBSCRIBE"
+            android:textSize="25dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/viewInfo"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Verify Info"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="RETURN TO ARTICLES"
+        android:textSize="25dp"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
